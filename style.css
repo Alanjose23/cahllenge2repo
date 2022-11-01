@@ -1,0 +1,25 @@
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #ecb85c;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+  }
+
+header {
+background-color: var(--bright-turquoise);
+fill: #ecb85c;
+  }
+
+body {
+    /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+    font-family: Tahoma, sans-serif;
+  
+    /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
+    font-size: 1.12rem;
+   
+  }
+  
+  .card .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }

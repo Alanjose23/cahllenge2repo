@@ -52,6 +52,23 @@ font-size: 20px;
   border: solid;
   font-size: 25px;
 }
+.card.projects{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+.card.projects header{
+  border: solid;
+  font-size: 80px;
+}
+.projpic{
+  max-width: 500px;
+  max-height: 600px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.card.projects h3 {
+}
 
   /* HEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
   WHEN I click one of the links in the navigation

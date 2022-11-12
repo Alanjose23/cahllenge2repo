@@ -64,10 +64,11 @@ padding: 10px;
 .projpic{
   max-width: 500px;
   max-height: 600px;
-  padding-top: 20px;
+  padding-top: 10px;
   border-radius: 5px;
 }
-.card.projects h3 {
+.projpic:hover {
+  box-shadow: 10px 10px 10px 10px rgb(137, 114, 175);
 }
 
   /* HEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them

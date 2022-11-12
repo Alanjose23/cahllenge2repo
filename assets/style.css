@@ -13,7 +13,8 @@
   list-style-type: none;
   background-color: rgb(137, 114, 175);
   color: white;
-  border-right: 2px solid rgb(0, 0, 0);
+  border:solid;
+  border-color: rgb(137, 114, 175);
 }
 /* navbar setup */
 .card.setup {
@@ -44,11 +45,15 @@ font-size: 20px;
 }
 /* styling container of information` */
 .container h2{
+  border: solid;
+  border-radius: 10px;
   font-size: 50px;
-  color: darkblue;
+  background-color: rgb(137, 114, 175);
+  color: white;
   padding: 20px;
 }
 .container p {
+  padding-left: 10px;
   border: solid;
   font-size: 25px;
 }
@@ -60,7 +65,8 @@ padding: 10px;
 /* created project styling and project layout */
 .card.projects header{
   border: solid;
-  font-size: 80px;
+  color: rgb(137, 114, 175);
+  font-size: 70px;
 }
 .projpic{
   max-width: 500px;
@@ -72,7 +78,22 @@ padding: 10px;
 .projpic:hover {
   box-shadow: 10px 10px 10px 10px rgb(137, 114, 175);
 }
+/* contact page header */
+.contactspage header{
+background-color: rgb(137, 114, 175);;
+margin-top: 150px;
+font-size: 50px;
+border-radius: 15px;
+border: solid;
+}
 
+.contactspage ul {
+  padding: 10px;
+  border: solid;
+}
+.contactspage a {
+  text-align:justify;
+}
   /* HEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
   WHEN I click one of the links in the navigation
   THEN the UI scrolls to the corresponding section

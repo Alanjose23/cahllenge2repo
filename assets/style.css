@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+/* selection of all items and based on selection criteria create an aesthetic environment */
+.page-title{
+  color: beige;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/226/039/small/abstract-technology-geometric-pattern.jpg");
+}
+/* create a background where I can develop and create the code nessessary for a cool style */
+.card.setup ul {
+  display: inline;
+  list-style-type: none;
+  background-color: rgb(137, 114, 175);
+  color: white;
+  border-right: 2px solid rgb(0, 0, 0);
+}
+/* navbar setup */
+.card.setup {
+  display: block;
+  float: bottom;
+  background-color: rgb(137, 114, 175);
+  padding: 10px;
+  border-radius: 25px;
+  
+}
+.title {
+font-size: 20px;
+}
+/* styling picture */
+.sourcepicture{
+  max-width: 300px;
+  max-height: 400px;
+  border-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  
+}
+/* styling container of information` */
+.container h2{
+  font-size: 50px;
+  color: darkblue;
+  padding: 20px;
+}
+.container p {
+  border: solid;
+  font-size: 25px;
+}
+
+  /* HEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+  WHEN I click one of the links in the navigation
+  THEN the UI scrolls to the corresponding section
+  WHEN I click on the link to the section about their work
+  THEN the UI scrolls to a section with titled images of the developer's applications
+  WHEN I am presented with the developer's first application
+  THEN that application's image should be larger in size than the others
+  WHEN I click on the images of the applications
+  THEN I am taken to that deployed application
+  WHEN I resize the page or view the site on various screens and devices
+  THEN I am presented with a responsive layout that adapts to my viewport */

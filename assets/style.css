@@ -7,6 +7,9 @@
   color: beige;
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/226/039/small/abstract-technology-geometric-pattern.jpg");
 }
+.sourcepicture {
+background-color: rgb(137, 114, 175);;
+}
 /* create a background where I can develop and create the code nessessary for a cool style */
 .card.setup ul {
   display: inline;
